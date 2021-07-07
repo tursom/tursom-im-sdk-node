@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "google-protobuf": "^3.17.3",
-    "pbjs": "0.0.14"
+    "google-protobuf": "^3.17.3"
   }
 }
