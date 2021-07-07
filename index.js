@@ -58,7 +58,8 @@ client.on("connect", function (connection) {
 
     let loginMsg = new TursomMsg.ImMsg()
         .setLoginrequest(new TursomMsg.LoginRequest()
-            .setToken("CNeb25i9srXUchILMjFiNjg2YUIzejY="))
+            // .setToken("CNeb25i9srXUchILMjFiNjg2YUIzejY="))
+            .setToken("CNmX3Zb/m+HAYRILMjF0c2ZkMXJRNU4="))
     connection.sendBytes(Buffer.from(loginMsg.serializeBinary()))
     setTimeout(sendHeartbeat, 30000);
 })
